@@ -1,0 +1,39 @@
+{
+  "name": "recon",
+  "version": "1.0.0",
+  "description": "Explainable transaction reconciliation — every match carries a receipt.",
+  "keywords": [
+    "reconciliation",
+    "fintech",
+    "ledger",
+    "settlement",
+    "payments",
+    "matching"
+  ],
+  "author": "Dylan Pulver",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "bin": {
+    "recon": "dist/src/cli.js"
+  },
+  "files": [
+    "dist/src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && node --test \"dist/test/*.test.js\"",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}

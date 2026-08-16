@@ -1,0 +1,10 @@
+id,date,amount,currency,reference,counterparty
+LC-1001,2026-03-02,42.50,USD,ORD-7311,Larkspur Coffee
+LC-1002,2026-03-02,18.20,USD,ORD-7312,Larkspur Coffee
+LC-1003,2026-03-03,96.00,USD,ORD-7313,Larkspur Coffee
+LC-1004,2026-03-03,250.00,USD,INV-2201,Nimbus SaaS
+LC-1005,2026-03-04,12.75,USD,,Larkspur Coffee
+LC-1006,2026-03-04,9.50,USD,,Larkspur Coffee
+LC-1007,2026-03-04,21.25,USD,,Larkspur Coffee
+LC-1008,2026-03-05,64.00,USD,ORD-7318,Larkspur Coffee
+LC-1009,2026-03-05,33.10,USD,ORD-7319,Larkspur Coffee

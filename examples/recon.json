@@ -1,0 +1,10 @@
+{
+  "decimals": 2,
+  "dateWindowDays": 3,
+  "amountToleranceBps": 50,
+  "manyToOne": {
+    "enabled": true,
+    "maxGroupSize": 6,
+    "dateWindowDays": 7
+  }
+}
