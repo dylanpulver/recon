@@ -1,5 +1,7 @@
 # recon
 
+[![CI](https://github.com/dylanpulver/recon/actions/workflows/ci.yml/badge.svg)](https://github.com/dylanpulver/recon/actions/workflows/ci.yml)
+
 **Explainable transaction reconciliation. Every match carries a receipt.**
 
 Zero runtime dependencies. TypeScript, Node 20+. MIT.
