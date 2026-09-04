@@ -250,3 +250,7 @@ Exit codes are CI-friendly: `0` fully reconciled, `1` unmatched rows remain,
 ## License
 
 MIT © 2026 Dylan Pulver
+
+---
+
+Built by [Dylan Pulver](https://dylanpulver.com), software engineer and entrepreneur in Toronto.
