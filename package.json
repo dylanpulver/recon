@@ -1,5 +1,5 @@
 {
-  "name": "recon",
+  "name": "@dylanpulver/recon",
   "version": "1.0.0",
   "description": "Explainable transaction reconciliation — every match carries a receipt.",
   "keywords": [
@@ -35,5 +35,13 @@
   "devDependencies": {
     "@types/node": "^20.14.0",
     "typescript": "^5.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylanpulver/recon.git"
+  },
+  "homepage": "https://github.com/dylanpulver/recon",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
